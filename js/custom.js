@@ -3,16 +3,17 @@ $(document).on('ready', function() {
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
+      autoplay: true,
       fade: true,
-      infinite: true,
+      infinite: false,
       asNavFor: '.center'
     });
     $('.center').slick({
       slidesToShow: 4,
-      arrows: true,
+      arrows: false,
       autoplay: true,
-      infinite: true,
-      slidesToScroll: 1,
+      infinite: false,
+      slidesToScroll: 4,
       asNavFor: '.regular',
       dots: false,
       focusOnSelect: true
