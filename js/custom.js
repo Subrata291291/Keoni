@@ -5,15 +5,15 @@ $(document).on('ready', function() {
       arrows: false,
       autoplay: true,
       fade: true,
-      infinite: false,
+      infinite: true,
       asNavFor: '.center'
     });
     $('.center').slick({
       slidesToShow: 4,
       arrows: false,
       autoplay: true,
-      infinite: false,
-      slidesToScroll: 4,
+      infinite: true,
+      slidesToScroll: 1,
       asNavFor: '.regular',
       dots: false,
       focusOnSelect: true
